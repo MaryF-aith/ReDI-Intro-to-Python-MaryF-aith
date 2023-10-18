@@ -135,7 +135,7 @@ If it output some numbers which represent the version of git you installed, this
  
  **This is needed before we can progress with subsequent steps.**
 
-
+- DO THE FOLLOWING STEPS AT THE BEGINNING OF EACH LESSON TO GET UP-TO-DATE CONTENT
 - Run the command 
 
 ```ls``` 
@@ -152,7 +152,7 @@ This will list all files and directories in that folder and you should now see a
  
   ```git pull```
   
-You should run this command at the start of every lesson to have the up-to-date content.
+You should run this command at the start of every lesson to have **up-to-date content**.
 
 **More information on Git**
 - Udacity has a very good free course about Git essentials [here](https://www.udacity.com/course/version-control-with-git--ud123). In general, we would strongly advise to use Git for version control for your future coding projects. 
@@ -160,7 +160,7 @@ You should run this command at the start of every lesson to have the up-to-date 
 
 ### 1.4 Miniconda & Python
 
-Miniconda is a small bootstrap version of Anaconda that includes only conda, Python and the packages they depend on as well as a small number of other useful packages including pip, zlib and few others. Anaconda is the world’s most popular open-source Python distribution platform and one of its main components, conda, is an open-source package and environment management system that runs on Windows, macOS, and Linux. With conda, we can quickly install, run, and update packages and their dependencies. It allows us to easily create, save, load, and switch between environments on our local computer, thus enabling an isolated, project-specific environment management. Conda was initially created for Python programs, but it can package and distribute software for any language. 
+Miniconda is a small bootstrap version of Anaconda that includes only conda, Python and the packages they depend on as well as a small number of other useful packages including pip, zlib and few others. Anaconda is the world’s most popular open-source Python distribution platform and one of its main components, conda, is an open-source package and environment management system that runs on Windows, macOS, and Linux. With conda, we can quickly install, run, and update packages and their dependencies. It allows us to easily create, save, load, and switch between environments on our local computer, thus enabling isolated, project-specific environment management. Conda was initially created for Python programs, but it can package and distribute software for any language. 
 
 **Documentation**: [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
 
@@ -168,24 +168,32 @@ Miniconda is a small bootstrap version of Anaconda that includes only conda, Pyt
 
 **Window and Linux**
 
-- In the bash command line interface Terminal (WSL Ubuntu profile), run the following to download the Miniconda installation script
+In case you have conda installed
+
+- In the bash command line interface Terminal (WSL Ubuntu profile), go back to the root directory by
+  
+```cd ..```
+
+- In case you have conda installed already, check the updates by
+  
+- Run the following to download the Miniconda installation script
 
 ```wget https://repo.anaconda.com/miniconda/Miniconda3-py310_23.1.0-1-Linux-x86_64.sh```
 
 - Then, run this command to install Miniconda
-
 ```bash Miniconda3-py310_23.1.0-1-Linux-x86_64.sh``` and follow the prompts on the installer screens. Answer "yes" to all questions, particularly to whether you wish the installer to initialize Miniconda3 by running conda init.
 
 - Afterwards, you can remove the installation command
 
- ```rm Miniconda3-py310_23.1.0-1-Linux-x86_64.sh```
+  ```rm Miniconda3-py310_23.1.0-1-Linux-x86_64.sh```
+ 
 
 - To make the installation changes take effect, close and then re-open your terminal window.
 
 - Run the command
  ```conda list``` 
  
- This command is use to verify that conda is now installed. If an output of packages is returned, you are good to go; otherwise it will tell you that the conda command was not found.
+ This command is use to verify that conda is now installed. If an output of packages is returned, you are good to go; otherwise, it will tell you that the conda command was not found.
 
 **Alternative**
 Download the appropriate installer for your OS with the latest python version(Python 3.10) from [here](https://docs.conda.io/en/latest/miniconda.html)
