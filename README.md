@@ -204,7 +204,7 @@ We will now create our first conda environment to install all required packages 
 
 - Run 
 
-```cd hh-dcp-intro-to-computer-science```
+```cd ReDI-Intro-to-Python```
 
 ```conda env create -f environment.yml```
 
@@ -218,7 +218,7 @@ This will list all conda environments. Next to the "base" environment, which is 
 
 - We can activate the new environment by running 
 
-```conda activate intro-to-cs```
+```conda activate intro-to-python```
 
  We will activate this environment at the beginning of every lesson of Python classes. In your day-to-day work, we recommend to create different conda environments for different projects so that you have isolated environments and don't break things because of incompatability of packages across projects.
 
@@ -228,7 +228,7 @@ This will list all conda environments. Next to the "base" environment, which is 
 
 - OPTIONAL: to uninstall the newly installed conda environment, run 
 
-```conda env remove -n intro-to-cs```.
+```conda env remove -n intro-to-python```.
 
 <!-- ### 1.2.5 Azure CLI 
 
@@ -346,7 +346,7 @@ JupyterLab is the latest open-source web-based interactive development environme
 
 - Activate the conda environment by opening your Linux distribution's command line via Windows Terminal or other terminals by running
 
-```conda activate intro-to-cs```
+```conda activate intro-to-python```
 
 - Run 
 
