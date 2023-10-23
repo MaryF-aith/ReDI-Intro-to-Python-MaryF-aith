@@ -224,7 +224,7 @@ This will list all conda environments. Next to the "base" environment, which is 
 
 - To deactivate the new environment, run 
 
-```conda deactivate intro-to-cs```.
+```conda deactivate```.
 
 - OPTIONAL: to uninstall the newly installed conda environment, run 
 
