@@ -35,21 +35,17 @@ Henceforth, you will use your copy's URL to checkout the code.
 ### Open the Homework file
 [https://colab.research.google.com/?hl=en](https://colab.research.google.com/?hl=en)
 
-There you can open the menu "file/open notebook". In the pop-up window select the "GitHub" tab. 
-You need to grant "Google Colaboratory" in the following dialogs by entering your GitHub credentials.
+There you can open the menu "file/open notebook". In the pop-up window first select the "GitHub" tab. 
+second, you need to paste the the URL of the repo you copied under Enter a GitHub URL. Third, make sure you selected the  'Yourname-ReDi-Intro-to-Python' repository and then in the drop down menu and click on the 
+"2-Python-Tools/Homework1-Google_Colab.ipynb" jupyter notebook. Jupyter notebooks have the file extension '.ipynb'
+![colab](../images/4-colab.png)
 
-Select the 'Yourname-ReDi-Intro-to-Python' repository in the drop down menu and klick on the 
-"Homework1-Google_Colab.ipynb" jupyter notebook. Jupyter notebooks have the file extension '.ipynb'
-![select project](../images/selectProject.png)
-
-You can edit the Page content and execute the code blocks. Colab may issue a security warning, which you may accept at your own peril.
-![security warning](../images/warning.png)
-
+Now you can edit the Page content, execute your answers.
 ### save notebook files
-If you want to save your work for later (highly recommended), select the "File/Save a copy in GitHub" menu item.
+Once you are done with the homework, select the "File/Save a copy in GitHub" menu item.
 You can keep most presets, but please enter something meaningful as a "Commit message", as this will help you later to 
 understand the goal of the change. Press "OK"  
-![save to GitHub](../images/saveToGitHub.png)
+![save to GitHub](../images/4.1-save.png)
 This will create a new version of the file in your copy of the GitHub project. 
 
 ## Step 2 - Jupyter Lab
