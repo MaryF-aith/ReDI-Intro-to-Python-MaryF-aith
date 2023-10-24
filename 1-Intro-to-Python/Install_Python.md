@@ -193,7 +193,8 @@ In case you have conda installed
 - Run the command
  ```conda list``` 
  
- This command is use to verify that conda is now installed. If an output of packages is returned, you are good to go; otherwise, it will tell you that the conda command was not found.
+ This command is used to verify that conda is now installed. If an output of packages is returned, you are good to go.
+ - In case it tells you that the conda command was not found. Run ```bash``` and then run ```conda list``` again.
 
 **Alternative**
 Download the appropriate installer for your OS with the latest python version(Python 3.10) from [here](https://docs.conda.io/en/latest/miniconda.html)
