@@ -13,15 +13,22 @@
 
 ## Step 1 - Google Colab
 
-open [Redi-Intro-to-Python](https://github.com/neslihankeskin/ReDI-Intro-to-Python)
+Open [Redi-Intro-to-Python](https://github.com/neslihankeskin/ReDI-Intro-to-Python)
 and sign into your GitHub account.
 
 On the GitHub page for this project, klick on the ![fork](../images/fork.png)-button to prepare your own copy 
-to store your changes afterwards. You can keep all the presets and press "Create fork".
+to store your changes afterwards. 
+
+![fork](../images/1-fork.png)
+
+Update the name by adding your name as prefix and press "Create fork".
+
+![Create fork](../images/2-fork.png)
 
 Now you 'own' a copy of 'Redi-Intro-to-Python' in your GitHub.
 Henceforth, you will use your copy's URL to checkout the code.
-![obtain GitHub URL](../images/github_url.png)
+
+![Obtain GitHub URL](../images/3-clone.png)
 
 
 ### Open the Homework file
@@ -30,8 +37,8 @@ Henceforth, you will use your copy's URL to checkout the code.
 There you can open the menu "file/open notebook". In the pop-up window select the "GitHub" tab. 
 You need to grant "Google Colaboratory" in the following dialogs by entering your GitHub credentials.
 
-Select the 'hh-dcp-intro-to-computer-science' repository in the drop down menu and klick on the 
-"interactive_programming.ipynb" jupyter notebook. Jupyter notebooks have the file extension '.ipynb'
+Select the 'Yourname-ReDi-Intro-to-Python' repository in the drop down menu and klick on the 
+"Homework1-Google_Colab.ipynb" jupyter notebook. Jupyter notebooks have the file extension '.ipynb'
 ![select project](../images/selectProject.png)
 
 You can edit the Page content and execute the code blocks. Colab may issue a security warning, which you may accept at your own peril.
