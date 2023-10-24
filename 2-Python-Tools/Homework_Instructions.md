@@ -3,7 +3,8 @@
 ## Pre Requisites
 
 - You need a GitHub account and have your credentials ready.
-- Complete the steps which was defined in "Python Tool Setup & Installation" https://github.com/neslihankeskin/ReDI-Intro-to-Python/tree/main#python-tool-setup-and-installation. In case you face any issue, write me your issue via Slack message with the screenshot and the step number that you are stuck, and only complete Step 1.
+- Complete the steps which were defined in "Python Tool Setup & Installation" https://github.com/neslihankeskin/ReDI-Intro-to-Python/tree/main#python-tool-setup-and-installation. In case you face any issues, write me your issue via Slack message with the screenshot and the step number that you are stuck, and only complete Step 1.
+- Create Git Personal Access Tokens (Classic) [https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) Do not lose your token this is your password.
 
 
 ## Additional Task
@@ -64,7 +65,9 @@ Run ```cd Yourname-ReDI-Intro-to-Python```. This will show you the files in this
 ### Step 2.2 Run JupyterLab
 On Windows Terminal, you should see ```(base) root@desktopname:~/Yourname-ReDI-Intro-to-Python$``` now activate your environment.
 Run ``conda activate intro-to-python`` now you should see ```(intro-to-python) root@desktopname:~/Yourname-ReDI-Intro-to-Python$```
-Run ``jupyter lab``. Ctrl + Click on the link start with localhost. This will launch JupyterLab, it will redirect you to your default browser. You can now work with notebooks (".ipynb" format) in JupyterLab. Please find and open the Homework1-JupyterLab.ipynb file on the left side under file browser and enter your answers on this file and then save it.
+Run ``jupyter lab``. Ctrl + Click on the link to start with ``http://localhost...``` This will launch JupyterLab, and it will redirect you to your default browser. You can now work with notebooks (".ipynb" format) in JupyterLab. Please find and open the Homework1-JupyterLab.ipynb file on the left side under file browser under 2-Python-Tools folder and enter your answers on this file and then save it.
+Note: **DO NOT CLOSE** your Windows Terminal during your work with JupyterLab.
+Once you are done with the homework save the file on JupyterLab
 
 Note: A Jupyter notebook consists of cells. The two main types of cells you will use are **code cells** and **markdown cells**.
 - **Code Cells** are for Python script and if you want to execute the code in a code cell, hit Enter while holding down the Shift key (denoted Shift + Enter). Note that code cells are executed in the order you shift-enter them. That is to say, the ordering of the cells for which you hit Shift + Enter is the order in which the code is executed.
