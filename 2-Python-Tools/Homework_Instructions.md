@@ -100,7 +100,10 @@ On file browser find Homework1-VSC.py follow the questions and write your answer
 
 If not search for them on the marketplace and click install in WSL:Ubuntu. Now click CTRL+Shift + P and click Python:Select Interpreter then you should select Python defined on conda env see the screenshot. ![interpreter](../images/5-interpreter.png)
 
-Once you are done on the Bash shell run ```git add .```, ``git commit -m "your message for changes"``, and ``git push -u origin main``.
+Once you are done with the homework run the file and check the results on terminal if it is correct. Pay attention it runs the .py file under Python profile.
+![VSC-run](../images/7-VSC-run.png)
+Then, on the Bash shell run ```git add .```, ``git commit -m "your message for changes"``, and ``git push -u origin main``.
+
 
  *If it asks you to write your username, write your Github Username, and the password is the token you created under pre-requests.* 
  Now if you go back to github page you will see your changes deployed to your repository.
