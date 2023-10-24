@@ -3,7 +3,7 @@
 ## Pre Requisites
 
 - You need a GitHub account and have your credentials ready.
-- Complete the steps which were defined in "Python Tool Setup & Installation" https://github.com/neslihankeskin/ReDI-Intro-to-Python/blob/main/1-Intro-to-Python/Install_Python.md In case you face any issues, write me your issue via Slack message with the screenshot and the step number that you are stuck, and only complete Step 0 & 1.
+- Complete the steps which were defined in "Python Tool Setup & Installation" https://github.com/neslihankeskin/ReDI-Intro-to-Python/tree/main#python-tool-setup-and-installation. In case you face any issues, write me your issue via Slack message with the screenshot and the step number that you are stuck, and only complete Step 0 & 1.
 - Create Git Personal Access Tokens (Classic) [https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) Do not lose your token this is your password.
 
 
@@ -17,34 +17,34 @@
 Open [Redi-Intro-to-Python](https://github.com/neslihankeskin/ReDI-Intro-to-Python)
 and sign into your GitHub account.
 
-On the GitHub page for this project, klick on the ![fork](../images/fork.png)-button to prepare your own copy 
+On the GitHub page for this project, click on the ![fork](../images/fork.png)-button to prepare your own copy 
 to store your changes afterwards. 
 
 ![fork](../images/1-fork.png)
 
-Update the name by adding your name as prefix and press "Create fork".
+Update the name by adding your name as a prefix and press "Create fork".
 
 ![Create fork](../images/2-fork.png)
 
 Now you 'own' a copy of 'Redi-Intro-to-Python' in your GitHub as 'YourName-Redi-Intro-to-Python'. Go to your Github account and find this repository. As shown below screenshot, click to green code button and select HTTPS copy the URL link.
-Henceforth, you will use your copy's URL to checkout the code.
+Henceforth, you will use your copy's URL to check out the code.
 
 ![Obtain GitHub URL](../images/3-clone.png)
 
 Watch this demo: https://www.youtube.com/watch?v=XTolZqmZq6s
 
-For better understanding of Fork and Clone a Repo wath this video: https://www.youtube.com/watch?v=YoGli76EPkU
+For a better understanding of Fork and Clone a Repo watch this video: https://www.youtube.com/watch?v=YoGli76EPkU
 
 ## Step 1 - Google Colab
 ### Open the Homework file
 [https://colab.research.google.com/?hl=en](https://colab.research.google.com/?hl=en)
 
 There you can open the menu "file/open notebook". In the pop-up window first select the "GitHub" tab. 
-second, you need to paste the the URL of the repo you copied under Enter a GitHub URL. Third, make sure you selected the  'Yourname-ReDi-Intro-to-Python' repository and then in the drop down menu and click on the 
+second, you need to paste the URL of the repo you copied under Enter a GitHub URL. Third, make sure you selected the  'Yourname-ReDi-Intro-to-Python' repository and then in the drop-down menu and click on the 
 "2-Python-Tools/Homework1-Google_Colab.ipynb" jupyter notebook. Jupyter notebooks have the file extension '.ipynb'
 ![colab](../images/4-colab.png)
 
-Now you can edit the Page content, execute your answers.
+Now you can edit the Page content, and execute your answers.
 ### Save the homework to GitHub
 Once you are done with the homework, select the "File/Save a copy in GitHub" menu item.
 You can keep most presets, but please enter something meaningful as a "Commit message", as this will help you later to 
@@ -60,12 +60,12 @@ If not clear watch this video: https://www.youtube.com/watch?v=q0I4CzpBATk
 ## Step 2 - Jupyter Lab
 
 ### Step 2.1 Clone Github repo
-Now, you will clone the repo that you forked previously. Note: We practiced cloning the repository Redi-Intro-to-Python. However, you do not have permission to push changes for that repo, so that you should clone one of your own repositories to exercise git commands.
-Go to Windows Terminal, make sure that you opened Ubuntu shell
+Now, you will clone the repo that you forked previously. Note: We practised cloning the repository Redi-Intro-to-Python. However, you do not have permission to push changes for that repo, so that you should clone one of your own repositories to exercise git commands.
+Go to Windows Terminal, and make sure that you opened Ubuntu shell
 You will see ```(base) root@desktopname:~$```
 Run ```git clone https://github.com/[YourGithubName]/[YourRepoName].git ``` for example ```git clone https://github.com/neslihankeskin/ReDI-Intro-to-Python.git``` please replace the link with your own repository which you forked.
 This will create a local version of this repository on your computer. In the same way, you can clone any git repository by changing the address.
-Run ```ls```. This will list all files and directories in your computer and you should now see a new folder called "Yourname-ReDI-Intro-to-Python".
+Run ```ls```. This will list all files and directories on your computer and you should now see a new folder called "Yourname-ReDI-Intro-to-Python".
 Run ```cd Yourname-ReDI-Intro-to-Python```. This will show you the files in this directory.
 ### Step 2.2 Run JupyterLab
 On Windows Terminal, you should see ```(base) root@desktopname:~/Yourname-ReDI-Intro-to-Python$``` now activate your environment.
@@ -81,8 +81,8 @@ Note: A Jupyter notebook consists of cells. The two main types of cells you will
 Watch this tutorial for further about Jupyter Lab.
 
 ## Step 3 - VSC
-### Step 3.1 Clone github repo
-Skip this step if you already done Step 2.1, if not Do Step 2.1.
+### Step 3.1 Clone Github repo
+Skip this step if you have already done Step 2.1, if not Do Step 2.1.
 ### Step 3.2 Run VSC
 On Windows Terminal, you should see ```(base) root@desktopname:~/Yourname-ReDI-Intro-to-Python$```. If not, you can close and open a new Windows terminal and run ```cd Yourname-ReDI-Intro-to-Python```.
 Run ``code .`` This will open VSC. Note: it might take some time to install the VS Code Server if you run the command for the first time. 
@@ -91,7 +91,7 @@ On file browser find Homework1-VSC.py follow the questions and write your answer
 
 If not search for them on the marketplace and click install in WSL:Ubuntu. Now click CTRL+Shift + P and click Python:Select Interpreter then you should select Python defined on conda env see the screenshot. ![interpreter](../images/5-interpreter.png)
 
-Once you are done on the Bash shell run ```git add .```, ``git commit -m "your message for changes"``, and ``git push``. Now if you go back to github page you will see your changes deployed to the repository of yours. 
+Once you are done on the Bash shell run ```git add .```, ``git commit -m "your message for changes"``, and ``git push -u origin main``. If it asks you to write your username, write your Github Username, and the password is the token you created under pre-requests. Now if you go back to github page you will see your changes deployed to your repository.
 
 
 
