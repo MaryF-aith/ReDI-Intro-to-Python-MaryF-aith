@@ -3,7 +3,7 @@
 ## Pre Requisites
 
 - You need a GitHub account and have your credentials ready.
-- Complete the steps which were defined in "Python Tool Setup & Installation" https://github.com/neslihankeskin/ReDI-Intro-to-Python/tree/main#python-tool-setup-and-installation. In case you face any issues, write me your issue via Slack message with the screenshot and the step number that you are stuck, and only complete Step 0 & 1.
+- Complete the steps which were defined in "Python Tool Setup & Installation" https://github.com/neslihankeskin/ReDI-Intro-to-Python/blob/main/1-Intro-to-Python/Install_Python.md In case you face any issues, write me your issue via Slack message with the screenshot and the step number that you are stuck, and only complete Step 0 & 1.
 - Create Git Personal Access Tokens (Classic) [https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) Do not lose your token this is your password.
 
 
