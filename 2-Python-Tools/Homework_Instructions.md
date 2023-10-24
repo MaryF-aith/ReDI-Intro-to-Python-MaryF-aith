@@ -82,7 +82,7 @@ Skip this step if you already done Step 2.1, if not Do Step 2.1.
 On Windows Terminal, you should see ```(base) root@desktopname:~/Yourname-ReDI-Intro-to-Python$```. If not, you can close and open a new Windows terminal and run ```cd Yourname-ReDI-Intro-to-Python```.
 Run ``code .`` This will open VSC. Note: it might take some time to install the VS Code Server if you run the command for the first time. 
 On VSC, open a new terminal and make sure it is a bash shell. Now activate your environment. Run ``conda activate intro-to-python`` now you should see ```(intro-to-python) root@desktopname:~/Yourname-ReDI-Intro-to-Python$```
-On file browser find Homework1-VSC.py follow the questions and write your answers then run the file and see the outcome on the terminal window. Make sure you have Python and Jupyter extensions installed under WSL:UBUNTU-INSTALLED folder in extensions. [extension](../images/4-extensions.png)
+On file browser find Homework1-VSC.py follow the questions and write your answers then run the file and see the outcome on the terminal window. Make sure you have Python and Jupyter extensions installed under WSL:UBUNTU-INSTALLED folder in extensions. ![extension](../images/4-ext.png)
 
 If not search for them on the marketplace and click install in WSL:Ubuntu. Now click CTRL+Shift + P and click Python:Select Interpreter then you should select Python defined on conda env see the screenshot. ![interpreter](../images/5-interpreter.png)
 
