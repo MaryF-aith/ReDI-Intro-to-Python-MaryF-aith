@@ -3,7 +3,7 @@
 ## Pre Requisites
 
 - You need a GitHub account and have your credentials ready.
-- Complete the steps which were defined in "Python Tool Setup & Installation" https://github.com/neslihankeskin/ReDI-Intro-to-Python/tree/main#python-tool-setup-and-installation. In case you face any issues, write me your issue via Slack message with the screenshot and the step number that you are stuck, and only complete Step 1.
+- Complete the steps which were defined in "Python Tool Setup & Installation" https://github.com/neslihankeskin/ReDI-Intro-to-Python/tree/main#python-tool-setup-and-installation. In case you face any issues, write me your issue via Slack message with the screenshot and the step number that you are stuck, and only complete Step 0 & 1.
 - Create Git Personal Access Tokens (Classic) [https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) Do not lose your token this is your password.
 
 
@@ -12,7 +12,7 @@
 
 
 
-## Step 1 - Google Colab
+## Step 0 - Fork the Repo and rename it
 
 Open [Redi-Intro-to-Python](https://github.com/neslihankeskin/ReDI-Intro-to-Python)
 and sign into your GitHub account.
@@ -26,12 +26,16 @@ Update the name by adding your name as prefix and press "Create fork".
 
 ![Create fork](../images/2-fork.png)
 
-Now you 'own' a copy of 'Redi-Intro-to-Python' in your GitHub.
+Now you 'own' a copy of 'Redi-Intro-to-Python' in your GitHub as 'YourName-Redi-Intro-to-Python'. Go to your Github account and find this repository. As shown below screenshot, click to green code button and select HTTPS copy the URL link.
 Henceforth, you will use your copy's URL to checkout the code.
 
 ![Obtain GitHub URL](../images/3-clone.png)
 
+Watch this demo: https://www.youtube.com/watch?v=XTolZqmZq6s
 
+For better understanding of Fork and Clone a Repo wath this video: https://www.youtube.com/watch?v=YoGli76EPkU
+
+## Step 1 - Google Colab
 ### Open the Homework file
 [https://colab.research.google.com/?hl=en](https://colab.research.google.com/?hl=en)
 
@@ -41,12 +45,17 @@ second, you need to paste the the URL of the repo you copied under Enter a GitHu
 ![colab](../images/4-colab.png)
 
 Now you can edit the Page content, execute your answers.
-### save notebook files
+### Save the homework to GitHub
 Once you are done with the homework, select the "File/Save a copy in GitHub" menu item.
 You can keep most presets, but please enter something meaningful as a "Commit message", as this will help you later to 
 understand the goal of the change. Press "OK"  
 ![save to GitHub](../images/4.1-save.png)
 This will create a new version of the file in your copy of the GitHub project. 
+### Alternatively, clone the entire repository to Google Colab
+On Colab create a new Notebook, run this command with your URL link. ``!git clone https://github.com/[YourGithubName]/[YourRepoName].git``. On the left side you will see the folders and the files on this repository and you can select any file that you want to edit.
+![clone](../images/4.2-clone.png)
+
+If not clear watch this video: https://www.youtube.com/watch?v=q0I4CzpBATk
 
 ## Step 2 - Jupyter Lab
 
@@ -54,7 +63,7 @@ This will create a new version of the file in your copy of the GitHub project.
 Now, you will clone the repo that you forked previously. Note: We practiced cloning the repository Redi-Intro-to-Python. However, you do not have permission to push changes for that repo, so that you should clone one of your own repositories to exercise git commands.
 Go to Windows Terminal, make sure that you opened Ubuntu shell
 You will see ```(base) root@desktopname:~$```
-Run ```git clone [link to your forked repo] ``` for example ```git clone https://github.com/neslihankeskin/ReDI-Intro-to-Python.git``` please replace the link with your own repository which you forked.
+Run ```git clone https://github.com/[YourGithubName]/[YourRepoName].git ``` for example ```git clone https://github.com/neslihankeskin/ReDI-Intro-to-Python.git``` please replace the link with your own repository which you forked.
 This will create a local version of this repository on your computer. In the same way, you can clone any git repository by changing the address.
 Run ```ls```. This will list all files and directories in your computer and you should now see a new folder called "Yourname-ReDI-Intro-to-Python".
 Run ```cd Yourname-ReDI-Intro-to-Python```. This will show you the files in this directory.
