@@ -70,21 +70,24 @@ Run ```cd Yourname-ReDI-Intro-to-Python```. This will show you the files in this
 ### Step 2.2 Run JupyterLab
 On Windows Terminal, you should see ```(base) root@desktopname:~/Yourname-ReDI-Intro-to-Python$``` now activate your environment.
 Run ``conda activate intro-to-python`` now you should see ```(intro-to-python) root@desktopname:~/Yourname-ReDI-Intro-to-Python$```
-Run ``jupyter lab``. Ctrl + Click on the link to start with ``http://localhost...``` This will launch JupyterLab, and it will redirect you to your default browser. You can now work with notebooks (".ipynb" format) in JupyterLab. Please find and open the Homework1-JupyterLab.ipynb file on the left side under file browser under 2-Python-Tools folder and enter your answers on this file and execute your answers. Once you are done with the homework save the file on JupyterLab. You saved your updates in your local repository but you will push your changes to your Github repo.
-1. Open File/New Launcher ![lab1](../images/6-lab1.png)
-2. Select Terminal. ![lab2](../images/6-lab2.png)
-3. Push your changes with git commands
-    - git add . 
-    - git commit -m "your message"
-    - git push -u origin main
-
-Note: **DO NOT CLOSE** your Windows Terminal during your work with JupyterLab.
+Run ``jupyter lab``. Ctrl + Click on the link to start with ``http://localhost...``` This will launch JupyterLab, and it will redirect you to your default browser. You can now work with notebooks (".ipynb" format) in JupyterLab. Please find and open the Homework1-JupyterLab.ipynb file on the left side under file browser under 2-Python-Tools folder and enter your answers on this file and execute your answers. 
 
 Note: A Jupyter notebook consists of cells. The two main types of cells you will use are **code cells** and **markdown cells**.
 - **Code Cells** are for Python script and if you want to execute the code in a code cell, hit Enter while holding down the Shift key (denoted Shift + Enter). Note that code cells are executed in the order you shift-enter them. That is to say, the ordering of the cells for which you hit Shift + Enter is the order in which the code is executed.
 - **Markdown Cells** contain text. The text is written in markdown Hitting Shift + Enter renders the text in the formatting you specify.
 
-Watch this tutorial for further about Jupyter Lab.
+Once you are done with the homework save the file on JupyterLab. You saved your updates in your local repository but you will push your changes to your Github repo.
+1. Open File/New Launcher ![lab1](../images/6-lab1.png)
+2. Select Terminal. ![lab2](../images/6-lab2.png)
+3. Push your changes with git commands
+    - git add . 
+    - git commit -m "your message"
+    - git push -u origin main ![lab3](../images/6-lab3.png)
+
+*If it asks you to write your username, write your Github Username, and the password is the token you created under pre-requests.*
+
+Note: **DO NOT CLOSE** your Windows Terminal during your work with JupyterLab.
+
 
 ## Step 3 - VSC
 ### Step 3.1 Clone Github repo
@@ -97,7 +100,10 @@ On file browser find Homework1-VSC.py follow the questions and write your answer
 
 If not search for them on the marketplace and click install in WSL:Ubuntu. Now click CTRL+Shift + P and click Python:Select Interpreter then you should select Python defined on conda env see the screenshot. ![interpreter](../images/5-interpreter.png)
 
-Once you are done on the Bash shell run ```git add .```, ``git commit -m "your message for changes"``, and ``git push -u origin main``. If it asks you to write your username, write your Github Username, and the password is the token you created under pre-requests. Now if you go back to github page you will see your changes deployed to your repository.
+Once you are done on the Bash shell run ```git add .```, ``git commit -m "your message for changes"``, and ``git push -u origin main``.
+
+ *If it asks you to write your username, write your Github Username, and the password is the token you created under pre-requests.* 
+ Now if you go back to github page you will see your changes deployed to your repository.
 
 
 
