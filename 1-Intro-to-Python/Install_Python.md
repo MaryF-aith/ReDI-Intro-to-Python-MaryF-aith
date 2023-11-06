@@ -197,11 +197,11 @@ In case you have conda installed
  - In case it tells you that the conda command was not found. Run ```bash``` and then run ```conda list``` again.
 
 **Alternative**
-Download the appropriate installer for your OS with the latest python version(Python 3.10) from [here](https://docs.conda.io/en/latest/miniconda.html)
+Download the appropriate installer for your OS with the latest Python version(Python 3.10) from [here](https://docs.conda.io/en/latest/miniconda.html)
 
 #### 1.4.2 Create the Conda Environment
 
-We will now create our first conda environment to install all required packages and libraies for the lessons. The most reproducible and recommended way to install a conda environment is from an environment definition in a ".yml" file. To this end, the repository that we just cloned in the previous step contains an "environment.yml" file where the Python version as well as all required packages including their respective versions are defined. We can install the conda environment from the "environment.yml" file as follows:
+We will now create our first conda environment to install all required packages and libraries for the lessons. The most reproducible and recommended way to install a conda environment is from an environment definition in a ".yml" file. To this end, the repository that we just cloned in the previous step contains an "environment.yml" file where the Python version as well as all required packages including their respective versions are defined. We can install the conda environment from the "environment.yml" file as follows:
 
 - Run 
 
@@ -209,19 +209,19 @@ We will now create our first conda environment to install all required packages 
 
 ```conda env create -f environment.yml```
 
-This install the conda environment defined in the "environment.yml" file. **Note**: When using WSL, it can happen that Conda fails to connect to the anaconda repo and returns a CondaHTTPError. If that is the case, open the Windows Command Prompt and type ```wsl --shutdown```. This will restart WSL. Then open WSL and try again.
+This installs the conda environment defined in the "environment.yml" file. **Note**: When using WSL, Conda may fail to connect to the Anaconda repo and return a CondaHTTPError. If that is the case, open the Windows Command Prompt and type ```wsl --shutdown```. This will restart WSL. Then open WSL and try again.
 
 - After the installation is done, run 
 
 ```conda env list``` 
 
-This will list all conda environments. Next to the "base" environment, which is installed by default, you should now see the environment named "intro-to-cs".
+This will list all conda environments. Next to the "base" environment, which is installed by default, you should now see the environment named "intro-to-python".
 
 - We can activate the new environment by running 
 
 ```conda activate intro-to-python```
 
- We will activate this environment at the beginning of every lesson of Python classes. In your day-to-day work, we recommend to create different conda environments for different projects so that you have isolated environments and don't break things because of incompatability of packages across projects.
+ We will activate this environment at the beginning of every lesson of Python classes. In your day-to-day work, we recommend creating different conda environments for different projects so that you have isolated environments and don't break things because of incompatibility of packages across projects.
 
 - To deactivate the new environment, run 
 
