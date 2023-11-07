@@ -6,9 +6,10 @@
 
 - Have a working development environment on Python.
 - General understanding of Python used area
+- First Python Code
 
 
-## Python Tools
+## 2. Python Tools
 
 
 #### VSCode
